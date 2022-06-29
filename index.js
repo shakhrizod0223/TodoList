@@ -44,14 +44,19 @@ function deleteUser(ids) {
 
 // Add user
 function addUser() {
-  inputName.value == '' && alert('Please write a` task name!')
-  return new Promise((resolve, reject) => {
-    var newUser = { id: arr.length + 1, name: inputName.value }
-    arr = [...arr, newUser]
-    resolve()
-    taskList.innerHTML = arr.length
-    inputName.value = ''
-  })
+
+  if (inputName.value == '') {
+    alert('Please write a` task name!')
+  } else {
+
+    return new Promise((resolve, reject) => {
+      var newUser = { id: arr.length + 1, name: inputName.value }
+      arr = [...arr, newUser]
+      resolve()
+      taskList.innerHTML = arr.length
+      inputName.value = ''
+    })
+  }
 }
 
 //Button click
