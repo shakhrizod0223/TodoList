@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #ff698b;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list{
+  font-size: 25px;
+  margin-top: 15px;
+  padding-top: 35px;
+  color: rgb(126, 122, 122);
+}
+
+.list-name{
+  font-size: 25px;
+  margin-top: 15px;
+  margin-right: 40px;
+  padding-top: 35px;
+  color: rgb(126, 122, 122);
+  cursor: pointer;
+}
+
+.del-btn{
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 48px; 
+  border-radius: 30px;
+  color: rgb(126, 122, 122);
+  cursor: pointer;
+}
+.del-btn:hover{
+  background: linear-gradient(#e66465, #9198e5);
+  color: white;
+}
+.del-btn:active {
+  box-shadow: 5px 2px 15px black;
+  transform: translateY(0.9999px);
+}
+#container{
+  width: 400px;
+  height: 550px;
+  background-color: whitesmoke;
+  margin-top: 30px;
+  margin-left: 800px;
+  border-radius: 30px;
+  padding: 40px 40px;
+  position:absolute;
+  box-shadow: 3px 3px 30px black;
+}
+#container:hover{
+ background: linear-gradient(#e66465, #9198e5); 
+ color: white;
+}
+
+#input, #btn{
+  position: relative;
+  top: 410px;
+  left: 825px;
+}
+
+#input{
+  font-size: 25px;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid black;
+  outline: none;
+}
+#btn{
+  font-size: 18px;
+  border-radius: 50px;
+  padding: 7px;
+  margin-left: 5px;
+  border: 2px solid black;
+}
+#input:hover{
+  background: linear-gradient(#e66465, #9198e5);
+  color: white;
+}
+ #btn:hover{
+  background: linear-gradient(#e66465, #9198e5);
+  color: white;
+}
+#btn:active{
+  box-shadow: 5px 2px 15px black;
+  transform: translateY(0.99px);
+}
+#inputs{
+  position: relative;
+  top: 5px;
+  left: 955px;
+  font-size: 13px;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid black;
+  outline: none;
+  padding: 3px;
+}
+#inputs:hover{
+  background: linear-gradient(#e66465, #9198e5);
+  color: white;
+}
+#taskList{
+  position: relative;
+  top: 34px;
+  left: 915px;
+  color: rgb(126, 122, 122);
+  cursor: pointer;
+}
+#header-btn{
+  position: relative;
+  top: 5px;
+  left: 955px;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 4px;
+}
+#header-btn:hover{
+  background: linear-gradient(#e66465, #9198e5);
+  color: white;
+}
+#header-btn:active{
+  box-shadow: 5px 2px 15px black;
+  transform: translateY(0.99px);
+}
+.task{
+  position: relative;
+  top: 60px;
+  left: 845px;
+  color: rgb(126, 122, 122);
+  cursor: pointer;
+  font-size: 25px;
+}
+
